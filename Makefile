@@ -4,7 +4,7 @@ CFLAGS := -Wall -Wextra -std=c99 -g -MMD -MP
 SRC := $(wildcard *.c)
 OBJ := $(SRC:.c=.o)
 DEPS := $(OBJ:.o=.d)
-OUT := main
+OUT := clox
 
 all: $(OUT)
 
