@@ -22,5 +22,8 @@ clean:
 run: $(OUT)
 	./$(OUT)
 
+trace: CFLAGS += -DDEBUG_TRACE_EXECUTION
+trace: clean all
+
 .PHONY: all clean run
 
