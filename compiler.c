@@ -152,7 +152,7 @@ static void binary() {
 
 static void grouping() {
 	expression();
-	consume(TOKEN_RIGHT_PAREN, "Expect '(' after expression.");
+	consume(TOKEN_RIGHT_PAREN, "Expect ')' after expression.");
 }
 
 static void number() {
